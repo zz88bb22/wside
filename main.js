@@ -39,11 +39,10 @@ function validateForm() {
   } else {
     var datastring = $("#js-form-send").serialize();
     $.ajax({
-      url: "https://formcarry.com/s/Hy82zHSUz",
+      url: "https://formspree.io/zztop22@protonmail.com",
       method: "POST",
       data: datastring,
-      dataType: "json",
-      contentType: "json",
+      dataType: "json"
     });
     $("#js-form-message")
       .addClass("text-success")
