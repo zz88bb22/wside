@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="en-US">
 
 <head>
   <meta charset="utf-8">
@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="bootstrap.css">
   <link rel="stylesheet" href="main.css">
 </head>
-<form class="form-wrapper" id="js-form-send">
+<form class="form-wrapper" id="js-form-send" method="POST">
   <div class="text-center mb-4">
     <h1 class="h3 mb-3 font-weight-normal">WatersideTampa.com</h1>
     <p>This domain name is available for purchase. Please fill out the form below to inqure about purchasing this domain.</p>
@@ -28,14 +28,14 @@
     <input type="number" id="price" class="form-control" placeholder="Offer Price in USD" required>
     <label for="price">Your Offer ($USD)</label>
   </div>
-  <button class="btn btn-lg btn-primary btn-block" type="submit" id="js-form-submit">Send Offer</button>
+  <input class="btn btn-lg btn-primary btn-block" id="js-form-submit" type="submit" value="Send Offer"></input>
   <p class="mt-5 mb-3 text-muted text-center">* Payments will be accepted through
     <a href="https://www.westernunion.com/us/en" target="_blank" rel="nofollow">Western Union</a>, making the transaction
     <span>100% safe &amp; secure for both parties.</span>
-    <div id="js-form-message"></div>
   </p>
 </form>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+crossorigin="anonymous"></script>
 <script src="main.js"></script>
 </body>
 
